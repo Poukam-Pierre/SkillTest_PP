@@ -1,0 +1,37 @@
+/* Made by Poukam Technology */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+/* Global style apply */
+*{
+    margin: auto;
+    padding: auto;
+}
+
+/* element style apply */
+.container {
+    background-image: url(images/LaBanner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.first_nav {
+    display: flex;
+    padding-top: 10px;
+}
+
+.nav_1 {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 50px;
+}
+
+.nav_1 a {
+    color: aliceblue;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-family: 'Open Sans' ;
+    
+}
